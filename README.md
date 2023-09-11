@@ -52,4 +52,5 @@ Convert each of the variables—`principal`, `rate` and `time_period`—into the
 <img width="330" alt="convert to float" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/f3997f4c-6acd-4f89-91a5-0a891f587de2">
 
 Now calculate the new compounded principal from the formula below, using the mathematical operations from earlier (remember that time_period will use exponation operators //). Assign the result to the variable name compounded_principal (Compounded Principal = Principal * (1+Rate) {Time_Period} ).
-<img width="507" alt="compounded principal" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/c92c3a27-47bf-4a08-946d-7c212febdabf">
+
+<img width="555" alt="compounded_principal revised" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/cc7631d3-5f80-415f-8c6c-2fc725200972">
