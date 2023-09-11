@@ -1,0 +1,5 @@
+## Practice Task 1
+1. Convert each of the variables—`principal`, `rate` and `time_period`—into the `float` data type through explicit type conversion, and reassign these values to their own respective variables (e.g., `principal = float(principal)`).
+    1. f_principal = float(principal)
+    2. f_rate = float(rate)
+    3. f_time_period = float(time_period)
