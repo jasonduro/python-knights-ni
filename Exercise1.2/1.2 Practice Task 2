@@ -1,0 +1,5 @@
+### Practice Task 2
+
+1. Enter the total world population listed above into a tuple called total_population.
+2. Make the data more concise! Perform a slice on total_population such that only every third data point is considered (6789088686, 7041194301, etc.), and store the slice as sliced_total_population.
+3. Also, find the maximum value insliced_total_population.
