@@ -22,7 +22,7 @@ python --version  Python 3.9.6
 <img width="567" alt="install requirements file" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/cbe16212-d4a2-469f-ab79-b7525feb24c3">
 
 ## Exercise 1.2
-### Practice Exercise
+### Practice Exercise 1
 
 To begin, copy the following lines of text into a text file, and then save it as “codepractice1.txt”:
 `1000
@@ -54,3 +54,12 @@ Convert each of the variables—`principal`, `rate` and `time_period`—into the
 Now calculate the new compounded principal from the formula below, using the mathematical operations from earlier (remember that time_period will use exponation operators //). Assign the result to the variable name compounded_principal (Compounded Principal = Principal * (1+Rate) {Time_Period} ).
 
 <img width="555" alt="compounded_principal revised" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/cc7631d3-5f80-415f-8c6c-2fc725200972">
+
+
+### Practice Exercise 2
+1. Enter the total world population listed above into a tuple called total_population.
+2. Make the data more concise! Perform a slice on total_population such that only every third data point is considered (6789088686, 7041194301, etc.), and store the slice as sliced_total_population.
+3. Also, find the maximum value insliced_total_population.
+<img width="560" alt="Screen Shot 2023-09-19 at 08 48 43" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/10793b98-5af2-438e-933d-14ab783e5eae">
+
+
