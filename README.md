@@ -62,4 +62,16 @@ Now calculate the new compounded principal from the formula below, using the mat
 3. Also, find the maximum value insliced_total_population.
 <img width="560" alt="Screen Shot 2023-09-19 at 08 48 43" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/10793b98-5af2-438e-933d-14ab783e5eae">
 
+### PRACTICE Exercise 3: LISTS
+
+Here’s a portion of Ford’s vehicle lineup for 2020:
+* Fiesta, Focus, Mondeo, Galaxy, Edge, Kuga, Ecosport, Puma, Ranger
+However, the list is missing an element: the Mustang. To practice what you’ve learned, complete the following steps and take screenshots of your IPython shell after each step:
+
+1. Make a list of the above lineup in the same order.
+2. Add Mustang to the end of the list.
+3. Next, sort the list in alphabetical order, and then display the sorted list.
+   
+<img width="871" alt="Ford_2020 List" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/8d6199e4-4618-45b6-9b35-abceccae4a7d">
+
 
