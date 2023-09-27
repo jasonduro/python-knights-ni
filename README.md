@@ -1,4 +1,4 @@
-# python-knights-ni
+[Practice Task 4.txt](https://github.com/jasonduro/python-knights-ni/files/12743535/Practice.Task.4.txt)# python-knights-ni
 My first python project - a recipe app 
 
 ## Exercise 1.1
@@ -74,4 +74,32 @@ However, the list is missing an element: the Mustang. To practice what you’ve 
    
 <img width="871" alt="Ford_2020 List" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/8d6199e4-4618-45b6-9b35-abceccae4a7d">
 
+### PRACTICE Exercise 4: STRINGS
+
+Assume that you’ve run the following statements:
+
+>>> str1 = 'hello, '
+>>> str2 = 'how are you?'
+>>> str3 = str1 + str2
+>>> print(str3)
+>>> 'hello, how are you?'
+
+To practice what you’ve learned, without using Python’s shell, work out on your own what the following statements would return:
+
+str3[3:]
+returns: lo, how are you?
+
+str3[-3:]
+returns: you?
+
+str3[2:9:3]
+returns: l,o
+
+str3[::-2]
+returns: o, y, e, a, w, h, ',', l, e 
+^ incorrect - correct answer is: '?o r o olh'
+	the starting position is still '?', then you move every -2 	positions. 
+
+str3[2:8]
+returns: llo, h
 
