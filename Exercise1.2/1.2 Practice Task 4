@@ -1,0 +1,49 @@
+CODE PRACTICE 4: STRINGS
+
+Assume that you’ve run the following statements:
+
+>>> str1 = 'hello, '
+>>> str2 = 'how are you?'
+>>> str3 = str1 + str2
+>>> print(str3)
+>>> 'hello, how are you?'
+
+0, -18 = h
+1, -17 = e
+2, -16 = l
+3, -15 = l 
+4, -14 = 0
+5, -13 = ,
+6, -12 = ' '
+7, -11 = h
+8, -10 = o
+9, -9 = w
+10, -8 = ' ' 
+11, -7 = a
+12, -6 = r
+13, -5 = e 
+14, -4 = ' '
+15, -3 = y
+16, -2 = o
+17, -1 = u
+18, 0 = '?'
+
+
+To practice what you’ve learned, without using Python’s shell, work out on your own what the following statements would return:
+
+str3[3:]
+returns: lo, how are you?
+
+str3[-3:]
+returns: you?
+
+str3[2:9:3]
+returns: l,o
+
+str3[::-2]
+returns: o, y, e, a, w, h, ',', l, e 
+^ incorrect - correct answer is: '?o r o olh'
+	the starting position is still '?', then you move every -2 	positions. 
+
+str3[2:8]
+returns: llo, h
