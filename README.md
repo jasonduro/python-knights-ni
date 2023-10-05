@@ -115,4 +115,33 @@ Time for your last practice task of the Exercise! To practice what you’ve lear
 <img width="531" alt="1 2 P5 Months" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/152767c2-b161-4c76-a936-e2f189021ebd">
 <img width="530" alt="1 2 P5 Months Sorted Alphabetically" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/ec38a70f-d652-4022-a647-bf7ecd2a8916">
 
+## Exercise 1.2 TASK
+Directions
+1. Create a structure named recipe_1 that contains the following keys:
+name (str): Contains the name of the recipe
+cooking_time (int): Contains the cooking time in minutes
+ingredients (list): Contains a number of ingredients, each of the str data type
+Decide what data structure you would use for this purpose, and in your README file in the repository for this task, describe in approx. 50-75 words why you’ve chosen to use it.
 
+For this purpose, I've chosen to use a combination of dictionaries and lists in Python.
+
+Dictionaries: I used dictionaries (recipe_1, recipe_2, etc.) to represent each recipe because they allow me to store structured data with named keys (e.g., 'name', 'cooking_time', 'ingredients'). This makes it easy to access and manipulate specific attributes of each recipe.
+
+List: I used a list (all_recipes) to store all the recipe dictionaries. Lists are ideal for storing a collection of items, and in this case, they allow me to keep all the recipes in a sequential order. I can easily add, remove, or iterate through the recipes as needed.
+
+This combination of dictionaries and a list provides a clean and organized way to manage multiple recipes, making it easy to expand the collection of recipes and access their individual attributes.
+
+2. The recipe_1 structure that you create will be for a cup of tea, with the following attributes:
+Name: Tea
+Cooking time: 5 minutes
+Ingredients: Tea leaves, Sugar, Water
+<img width="435" alt="Task 1 2 step 1   2" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/fccc04c8-3921-48b8-bcfc-0661da5723ed">
+
+4. Create an outer structure called all_recipes, and then add recipe_1 to it. Figure out what type of structure you would consider for all_recipes, and briefly note down your justification in the README file. Ideally, this outer structure should be sequential in nature, where multiple recipes can be stored and modified as required.
+<img width="616" alt="Task 1 2 step 3" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/2160dfac-3a01-4ae7-a941-2c01b6f4c318">
+
+5. You can make your own recipes too! Generate 4 more recipes as recipe_2, recipe_3, recipe_4, and recipe_5, and then add them as well to all_recipes.
+<img width="507" alt="Task 1 2 step 4" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/58a0df81-f66e-41f1-a84c-417ae19d7a62">
+
+6. Once you’re done setting up all_recipes, print the ingredients of each recipe as five different lists, inside the IPython shell.
+<img width="956" alt="Task 1 2 step 5" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/ee81d156-9705-4739-86b2-dd6a22e5b0fa">
