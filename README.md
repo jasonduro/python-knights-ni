@@ -103,3 +103,16 @@ returns: o, y, e, a, w, h, ',', l, e
 str3[2:8]
 returns: llo, h
 
+### PRACTICE Exercise 5: DICTIONARIES
+Time for your last practice task of the Exercise! To practice what you’ve learned, complete the following steps and take screenshots after each step:
+
+1. Make a list of the months in a year, and store it as `months_named`.
+2. Next, make another list of numbers ranging from 1 to 12 as `months_numbered`.
+3. Use the `zip()` function to merge the two lists together into a dictionary called `months_dict` such that the values in `months_named` act as the keys for the dictionary. An example of a key-value pair in this dictionary would be `October: 10`.
+4. Clear both initial lists (`months_named` and `months_numbered`) with the `clear()` method available to them.
+5. Print the entire dictionary onto your screen.
+6. Finally, convert the keys of this dictionary back into another list, `months_extracted`, and then list them in alphabetical order.
+<img width="531" alt="1 2 P5 Months" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/152767c2-b161-4c76-a936-e2f189021ebd">
+<img width="530" alt="1 2 P5 Months Sorted Alphabetically" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/ec38a70f-d652-4022-a647-bf7ecd2a8916">
+
+
