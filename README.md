@@ -145,3 +145,43 @@ Ingredients: Tea leaves, Sugar, Water
 
 6. Once you’re done setting up all_recipes, print the ingredients of each recipe as five different lists, inside the IPython shell.
 <img width="956" alt="Task 1 2 step 5" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/ee81d156-9705-4739-86b2-dd6a22e5b0fa">
+
+## Exercise 1.3 TASK
+### Step 1: Initialize two empty lists
+recipes_list = []
+ingredients_list = []
+
+#### Step 2: Define the function `take_recipe`
+```
+def take_recipe():
+    # Get input for the recipe name
+    name = input("Enter the name of the recipe: ")
+
+    # Get input for the cooking time, making sure it's an integer
+    while True:
+        try:
+            cooking_time = int(input("Enter the cooking time (in minutes): "))
+            break
+        except ValueError:
+            print("Please enter a valid integer for cooking time.")
+
+    # Get ingredients as a list
+    print("Enter ingredients (type 'done' when finished):")
+    ingredients = []
+    while True:
+        ingredient = input()
+        if ingredient.lower() == 'done':
+            break
+        ingredients.append(ingredient)
+        ingredients_list.append(ingredient)  # Also add to the global ingredients list
+
+    # Create the recipe dictionary
+    recipe = {'name': name, 'cooking_time': cooking_time, 'ingredients': ingredients}
+
+    # Add the recipe to the global recipes list
+    recipes_list.append(recipe)
+
+Example usage:
+take_recipe()
+
+
