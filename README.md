@@ -244,3 +244,17 @@ strawberry
 sugar
 water
 ```
+
+## Exercise 1.4 Practice Code 1
+CODE PRACTICE 1: WRITING TO FILES
+It’s time for your first optional practice task of this Exercise! Practice what you’ve learned by completing the following steps and remember to take screenshots of your IPython shell after each step:
+
+Temporarily open a file called “number_list.txt” in w mode (to write to a text file).
+Create a list of numbers from 50 to 100 (hint: The write() method's arguments must be in string form, so you'll have to convert the numbers to string).
+Write the entire list into this file using the writelines() method.
+Remember that there’s no need to close the file! The with keyword already takes care of that.
+Create a folder for this Exercise on your Github repository (you can name it “Exercise 1.4”). Create a sub-folder inside this folder and name it “1.4-Practice Task 1” or something similar. Upload the screenshots you took at each step to this folder.
+<img width="450" alt="Screen Shot 2023-11-28 at 14 59 00" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/af0f5a08-8182-42be-9de7-da474c611038">
+<img width="478" alt="Screen Shot 2023-11-28 at 14 59 19" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/21e96790-da09-4e8e-86a1-288402bcda92">
+<img width="382" alt="Screen Shot 2023-11-28 at 14 59 48" src="https://github.com/jasonduro/python-knights-ni/assets/38364361/ae699fe1-ab8b-4d1b-8ff8-1d4b2ccd1c98">
+
