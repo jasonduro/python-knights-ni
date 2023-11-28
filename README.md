@@ -184,4 +184,63 @@ def take_recipe():
 Example usage:
 take_recipe()
 
+```
+```
+In [79]: for recipe in recipes_list:
+    ...:     display_recipe(recipe)
+    ...:     print()  # This adds an empty line between recipes for better readability
+    ...:
+Recipe: Jason's Jam
+Cooking Time (min): 30
+Ingredients:
+strawberry, sugar, water 'done'
+Difficulty level: Intermediate
 
+Recipe: Erin's Soup
+Cooking Time (min): 30
+Ingredients:
+broth, chicken, onions, done
+'done'
+Difficulty level: Intermediate
+
+Recipe: Jason Jerky
+Cooking Time (min): 1
+Ingredients:
+beef 'done'
+Difficulty level: Easy
+
+Recipe: Stern Snack
+Cooking Time (min): 40
+Ingredients:
+cookies, cookies, cookies, done 'done'
+
+Difficulty level: Intermediate
+
+Recipe: Jason's Jam 2
+Cooking Time (min): 60
+Ingredients:
+sugar, jam, strawberries, blueberries, blackberries, boysenberries
+Difficulty level: Intermediate
+```
+```
+In [100]:     ...: print("Ingredients Available Across All Recipes")
+     ...:     ...: print("---------------------------------------")
+     ...:     ...: for ingredient in ingredients_list:
+     ...:     ...:     print(ingredient)
+     ...:
+Ingredients Available Across All Recipes
+---------------------------------------
+beef
+blackberries
+blueberries
+boysenberries
+broth
+chicken
+cookies
+jam
+onions
+strawberries
+strawberry
+sugar
+water
+```
